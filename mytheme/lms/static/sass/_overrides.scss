@@ -13,9 +13,36 @@ $blue: rgb(94, 0, 0);
 }
 
 .home > header {
-    background-color: #008dd1;
+    background-color: #9c9c9c;
 }
-
+.home > header .title {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    margin-left: 1.05961%;
+    box-sizing: border-box;
+    transition: all 0.2s linear 0s;
+    position: relative;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.5);
+    background: url('http://192.243.101.112/apply_@aceds/images/ds1.png');
+    padding: 20px 30px;
+    min-height: 330px;
+    vertical-align: top;
+	}
+.home > header .title > .heading-group p {
+    margin-bottom: 0;
+    text-transform: none;
+    font-style: italic;
+    color: #f8f0f0;
+}
+.home > header .title > .heading-group h1 {
+    text-align: left;
+    margin-bottom: 0;
+    text-shadow: 0 1px rgba(255,255,255,0.6);
+    text-transform: none;
+    color: #f8f0f0;
+}
 .courses-container .courses .course {
     border-bottom-color: #5e0000;
 }
